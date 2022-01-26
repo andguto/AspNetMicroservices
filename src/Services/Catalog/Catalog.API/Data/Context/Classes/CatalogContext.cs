@@ -7,7 +7,7 @@ using System;
 
 namespace Catalog.API.Data.Context.Classes
 {
-    public class CatalogContext<T> : ICatalogContext where T : class
+    public class CatalogContext: ICatalogContext
     {
         public CatalogContext(IConfiguration configuration)
         {
