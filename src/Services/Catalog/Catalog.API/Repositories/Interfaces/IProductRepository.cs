@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using Catalog.API.Entities;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Catalog.API.Entities.Repositories.Interfaces
+namespace Catalog.API.Repositories.Interfaces
 {
     public interface IProductRepository
     {
