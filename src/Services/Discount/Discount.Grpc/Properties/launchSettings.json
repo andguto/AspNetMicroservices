@@ -1,6 +1,6 @@
 ﻿{
   "profiles": {
-    "Discount.GRPC": {
+    "Discount.Grpc": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": false,
