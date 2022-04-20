@@ -44,7 +44,7 @@ namespace Discount.Grpc.Extensions
                     command.CommandText = @"INSERT INTO Coupon(ProductName, Description, Amount) VALUES('IPhone X', 'IPhone Discount', 150)";
                     command.ExecuteNonQuery();
 
-                    command.CommandText = @"INSERT INTO Coupon(ProductName, Description, Amount) VALUES('Samsung Galaxy S10', 'Samsung Discount', 100)";
+                    command.CommandText = @"INSERT INTO Coupon(ProductName, Description, Amount) VALUES('Samsung 10', 'Samsung Discount', 100)";
                     command.ExecuteNonQuery();
 
                     logger.LogInformation("Migrated PostegreSQL DataBase");
