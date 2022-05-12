@@ -7,7 +7,7 @@ using SendGrid.Helpers.Mail;
 using System;
 using System.Threading.Tasks;
 
-namespace Ordering.Infraestructure.Mail
+namespace Ordering.Infrastructure.Mail
 {
     public class EmailService : IEmailService
     {

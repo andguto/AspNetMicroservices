@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Ordering.Infraestructure.Persistence
+namespace Ordering.Infrastructure.Persistence
 {
     public class OrderContext : DbContext
     {
