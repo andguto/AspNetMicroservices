@@ -36,6 +36,9 @@ namespace Basket.API
                 options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
             });
 
+            // AutoMapper Configuration
+            services.AddAutoMapper(typeof(Startup));
+
             // General Configuration
             services.AddScoped<IBasketRepository, BasketRepository>();
 
