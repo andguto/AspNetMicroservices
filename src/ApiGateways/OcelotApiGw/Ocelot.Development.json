@@ -1,0 +1,10 @@
+{
+  "Catalog": null,
+  "http": null, //localhost:8000/swagger/index.html
+  "Basket": null,
+  "http": null, //localhost:8001/swagger/index.html
+  "Discount": null,
+  "http": null, //localhost:8002/swagger/index.html
+  "Ordering": null,
+  "http": //localhost:8004/swagger/index.html
+}
