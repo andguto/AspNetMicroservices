@@ -12,6 +12,7 @@
       ],
       "UpstreamPathTemplate": "/Catalog",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      // Cache
       "FileCacheOptions": { "TtlSeconds": 30 }
     },
     {
@@ -74,6 +75,7 @@
       ],
       "UpstreamPathTemplate": "/Basket/Checkout",
       "UpstreamHttpMethod": [ "POST" ],
+      // limitando chamadas
       "RateLimitOptions": {
         "ClientWhitelist": [],
         "EnableRateLimiting": true,
