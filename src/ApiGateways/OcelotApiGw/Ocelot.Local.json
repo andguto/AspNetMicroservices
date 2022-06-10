@@ -12,7 +12,6 @@
       ],
       "UpstreamPathTemplate": "/Catalog",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
-      // Cache
       "FileCacheOptions": { "TtlSeconds": 30 }
     },
     {
