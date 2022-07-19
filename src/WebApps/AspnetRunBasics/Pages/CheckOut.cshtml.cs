@@ -25,14 +25,14 @@ namespace AspnetRunBasics
 
         public async Task<IActionResult> OnGetAsync()
         {
-            var userName = "Anderson G. Masiero";
+            var userName = "AndersonMasiero";
             Cart = await _basketService.GetBasket(userName);
             return Page();
         }
 
         public async Task<IActionResult> OnPostCheckOutAsync()
         {
-            var userName = "Anderson G. Masiero";
+            var userName = "AndersonMasiero";
             Cart = await _basketService.GetBasket(userName);
 
             if (!ModelState.IsValid)

@@ -48,7 +48,7 @@ namespace AspnetRunBasics
         public async Task<IActionResult> OnPostAddToCartAsync(string productId)
         {
             var product = await _catalogService.GetCatalog(productId);
-            var userName = "Anderson G. Masiero";
+            var userName = "AndersonMasiero";
             var basket = await _basketService.GetBasket(userName);
 
 
